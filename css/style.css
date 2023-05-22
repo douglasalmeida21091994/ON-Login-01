@@ -87,7 +87,31 @@ main {
 }
 
 .campo > label {
-    display: none;
+    display: none; /* desaparece o meu nome E-mail e Senha , que estão descritos no meu label*/
+}
+
+.campo i { /* configuração dos ícones */
+    color: #ffffff;   
+    font-size: 1em;
+    padding: 5px;
+    margin-top: 7px;
+}
+
+.campo input { /* configuração das caixas */
+
+    background-color: aquamarine;
+    font-size: 1em;
+    border-radius: 5px;
+    width: 85%; /* posso usar, caso queira, a função: width: calc (100% - 40px); por exemplo */
+    margin: 0px 5px;
+    outline: none;
+}
+
+.campo input:focus-within {
+    background-color: rgb(106, 211, 176);
+    color: black;
+    font-weight: 400;
+    
 }
 
 .entrar {
