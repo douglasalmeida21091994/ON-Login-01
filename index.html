@@ -24,12 +24,12 @@
                 <h1>Login</h1>
                 <p>Faça o Login com os seus dados cadastrados.</p>
 
-                <form action="index.php" method="post" autocomplete="on">
+                <form class="formulario" action="index.php" method="post" autocomplete="on">
 
                     <div class="campo">
                         <label for="ilogin">E-mail: </label>
                         <input type="email" name="login" id="ilogin" placeholder="digite seu E-mail" required autocomplete="email" maxlength="30">
-                        <i id="iconemail" class="fa-solid fa-square-envelope"></i>
+                        <i id="iconemail" class="fa-solid fa-user"></i>
                     </div>
 
                     <div class="campo">
@@ -41,13 +41,13 @@
 
                     <div class="entrar">
                         <input type="submit" value="Entrar">
-                        <a href="#">Esqueci a senha <i id="iconpass" class="fa-solid fa-lock"></i></a>
+                        <a class="link" href="#">Esqueci a senha <i id="iconpass" class="fa-solid fa-lock"></i></a>
                     </div>
 
                 </form>
 
             </div>
-
+            
         </section>
     </main>    
 </body>
