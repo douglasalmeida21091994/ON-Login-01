@@ -40,11 +40,13 @@ main {
 
 #login {   
     overflow: hidden; /* se eu não coloco isso, não fica a borda top left e right, pois transborda com a imagem */
-    background-color: rgba(255, 255, 255, 0.826);
+    background-color: rgb(2, 120, 153);
     width: 350px;
     height: 600px;
     border-radius: 10px;   
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.461); 
+    transition: width .3s, height .3s; /* Animação dos lados e alturas */
+    transition-timing-function: ease; /* suavizada na animação */
 }
 
 #imagem {

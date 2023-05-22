@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/* Typical  Device Breakpoints
+--------------------------------
+
+Pequenas telas: Até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop:  de 992px até 1200px
+Grandes telas: acima de 1200px
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(-45deg, orange, blue, black);
+    }
+
+    #login {
+        width: 90vw;
+    }
+
+    
+    #imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    #form {
+        float: right;
+        width: 60%;
+        height: 100%;
+        background-color: rgb(17, 17, 179);
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: url(../img/natalMd.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+
+    #login {
+        width: 1000px;               
+    }
+
+    #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-position: top center;
+        background-size: cover;
+    }
+
+    #form {
+        float: right;
+        width: 50%;
+        height: 100%;
+        background-color: rgba(36, 36, 118, 0.899);        
+    }    
+}
