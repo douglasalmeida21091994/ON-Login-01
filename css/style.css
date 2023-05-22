@@ -9,5 +9,56 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body, html {
+    background-color: rgb(21, 21, 191);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    place-items: center;    
+
+    /* Poderia colocar meu main no meio da tela das seguintes formas também:
+
+    display: flex;   
+    justify-content: center; 
+    align-items: center;
+
+          ou
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    */
+}
+
+#login {   
+    overflow: hidden; /* se eu não coloco isso, não fica a borda top left e right, pois transborda com a imagem */
+    background-color: rgba(255, 255, 255, 0.826);
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.461); 
+}
+
+#imagem {
+    background: rgb(21, 21, 191) url(../img/pc.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+
+    display: block;
+}
+
+#form {
+    padding: 10px;
+    display: block;
+}
 
 
