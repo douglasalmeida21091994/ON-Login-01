@@ -53,10 +53,23 @@ Grandes telas: acima de 1200px
     .link {
         width: 100%;
     }
-
    
     .campo i {
         margin-top: 5px;
+    }    
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    #login {
+        max-width: 600px;
+    }
+
+    .campo input {
+        margin-left: 10px;
+    }
+
+    .campo i {
+        margin: 8px 8px
     }
     
 }
