@@ -109,7 +109,7 @@ main {
 
 .campo input { /* configuração das caixas */
 
-    background-color: rgb(106, 211, 176);
+    background-color: rgb(255, 255, 255);
     height: 70%;
     font-size: .8em;
     border-radius: 5px;
@@ -121,7 +121,7 @@ main {
 .campo input:focus-within {
     background-color: rgb(249, 255, 253);
     color: black;
-    font-weight: bold;    
+    font-weight: bold;
 
 }
 
@@ -141,7 +141,7 @@ main {
     height: 2.8em;
     margin-top: 10px;
     background-image: linear-gradient(to right, rgb(21, 21, 191), rgb(6, 55, 69), rgb(21, 21, 191));
-    color: rgb(4, 2, 125);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     letter-spacing: 1.2px;
     cursor: pointer;

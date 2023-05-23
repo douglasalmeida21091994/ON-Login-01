@@ -30,13 +30,21 @@ Grandes telas: acima de 1200px
     }
     #login {
         width: 80%;
-        height: auto;
-        border-radius: 0;
+        height: 600px;
+        border-radius: 10px;
         box-shadow: none;
     }
 
     #imagem {
         height: 150px;
+    }
+
+    #form h1 {
+        color: #ffffff;
+    }
+
+    #form p {
+        color: #ffffff;
     }
 
     .campo,
@@ -46,6 +54,7 @@ Grandes telas: acima de 1200px
         width: 100%;
     }
 
+   
     .campo i {
         margin-top: 5px;
     }
