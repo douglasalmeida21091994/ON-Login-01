@@ -24,7 +24,27 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (max-width: 480px) {
-    
+    #login {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #imagem {
+        height: 150px;
+    }
+
+    .campo,
+    .campo imput,
+    .entrar > input[type=submit],
+    .link {
+        width: 100%;
+    }
+
+    .campo i {
+        margin-top: 5px;
+    }
     
 }
 
