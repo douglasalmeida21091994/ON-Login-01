@@ -26,10 +26,10 @@ Grandes telas: acima de 1200px
 @media screen and (max-width: 480px) {
 
     body {
-        background-color: #000;
+        background-color: #000;        
     }
     #login {
-        width: 100%;
+        width: 80%;
         height: auto;
         border-radius: 0;
         box-shadow: none;
