@@ -11,9 +11,14 @@
 
 body, html {
     background-color: rgb(1, 78, 161);
-    height: 100vh;
+    height: 100%;
     width: 100vw;
+
+    display: grid;
+    place-items: center;
 }
+
+/*  EXCLUI O MAIN
 
 main {
     height: 100vh;
@@ -22,7 +27,7 @@ main {
     display: grid;
     place-items: center;    
 
-    /* Poderia colocar meu main no meio da tela das seguintes formas também:
+    Poderia colocar meu main no meio da tela das seguintes formas também:
 
     display: flex;   
     justify-content: center; 
@@ -35,10 +40,13 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    */
+    
 }
 
+*/
+
 #login {   
+    
     overflow: hidden; /* se eu não coloco isso, não fica a borda radius top left e right, pois transborda com a imagem */
     background-color: rgb(2, 120, 153);
     width: 350px;
