@@ -107,7 +107,7 @@ Grandes telas: acima de 1200px
         margin-bottom: 20px; 
         letter-spacing: 3px;   
        
-        background-image: linear-gradient(-180deg, orange, blue, black);
+        background-image: linear-gradient(to bottom, #ffffff, rgb(36, 36, 146), #ffffff);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;        
@@ -132,13 +132,37 @@ Grandes telas: acima de 1200px
         /* background-color: white;*/
     }
 
+    .campo {
+        background: rgb(0, 3, 82);
+    }
+
+    .campo input {
+        margin-left: 10px;
+        margin-top: 6px;
+    }
+
+    .campo i {
+        margin: 5px 4px
+    }
+
+    .entrar > input[type=submit] {
+        background-image: linear-gradient(to right, rgb(0, 3, 82), rgb(149, 146, 146), rgb(0, 3, 82));
+    }
+
+    .entrar > input[type=submit]:hover {
+        background-image: linear-gradient(to right, rgb(87, 87, 87), rgb(9, 27, 139), rgb(124, 124, 124));
+        color: white;
+    }
+
     .link {
-        color: #ffffff;
+        color: #01072d;
         font-size: .8em;
+        border: none;
+        height: 2.8em;
     }
 
     .link:hover {
-        color: blue;
+        color: rgb(129, 129, 130);
         font-weight: bold;
     }
     
@@ -169,7 +193,7 @@ Grandes telas: acima de 1200px
         float: left;
         width: 50%;
         height: 100%;
-        background-color: rgba(36, 36, 118, 0.899);        
+        background-color: rgba(10, 10, 31, 0.899);        
     }    
 
     #form h1 {
@@ -188,5 +212,18 @@ Grandes telas: acima de 1200px
     #form p {
         font-size: 1em;
         text-align: center;
+    }
+
+    .campo {
+        background: rgb(9, 10, 25);
+    }
+
+    .campo input {
+        margin-left: 10px;
+        margin-top: 6px;
+    }
+
+    .campo i {
+        margin: 5px 4px
     }
 }
