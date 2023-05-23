@@ -121,10 +121,7 @@ main {
 .campo input:focus-within {
     background-color: rgb(249, 255, 253);
     color: black;
-    font-weight: bold;
-
 }
-
 
 .entrar {
     display: flex;
@@ -132,7 +129,6 @@ main {
     align-items: center;
     justify-content: center;    
 }
-
 
 .entrar > input[type=submit] {
     /* display: block; faz com que ele fique sozinho na linha. PORÉM, OPTEI POR USAR O FLEX BLOX NA DIV .ENTRAR*/
@@ -177,6 +173,7 @@ main {
     background-image: linear-gradient(to right, rgb(21, 21, 191), rgb(6, 55, 69), rgb(21, 21, 191));
     color: white;
 }
+
 
 
 
