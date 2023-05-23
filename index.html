@@ -16,43 +16,42 @@
 </head>
 
 <body>
+    
+    <section id="login">
 
-    <main>
-        <section id="login">
-
-            <div id="imagem">
+        <div id="imagem">
                 <!--Minha imagem-->
-            </div>
+        </div>
 
-            <div id="form">
-                <h1>Login</h1>
-                <p>Faça o Login com os seus dados cadastrados.</p>
+        <div id="form">
+            <h1>Login</h1>
+            <p>Faça o Login com os seus dados cadastrados.</p>
 
-                <form class="formulario" action="index.php" method="post" autocomplete="on">
+            <form class="formulario" action="index.php" method="post" autocomplete="on">
 
-                    <div class="campo">
-                        <label for="ilogin">E-mail: </label>
-                        <input type="email" name="login" id="ilogin" placeholder="digite seu E-mail" required autocomplete="email" maxlength="30">
-                        <i id="iconemail" class="fa-solid fa-user"></i>
-                    </div>
+                <div class="campo">
+                    <label for="ilogin">E-mail: </label>
+                    <input type="email" name="login" id="ilogin" placeholder="digite seu E-mail" required autocomplete="email" maxlength="30">
+                    <i id="iconemail" class="fa-solid fa-user"></i>
+                </div>
 
-                    <div class="campo">
-                        <label for="isenha">Senha: </label>
-                        <input type="password" name="senha" id="isenha" placeholder="digite sua senha" required autocomplete="current-password" minlength="10" maxlength="25">   
-                        <i id="ipass" class="fa-solid fa-key"></i>
-                    </div>
+                <div class="campo">
+                    <label for="isenha">Senha: </label>
+                    <input type="password" name="senha" id="isenha" placeholder="digite sua senha" required autocomplete="current-password" minlength="10" maxlength="25">   
+                    <i id="ipass" class="fa-solid fa-key"></i>
+                </div>
                    
 
-                    <div class="entrar">
-                        <input type="submit" value="Entrar">
-                        <a class="link" href="#">Esqueci a senha <i id="iconpass" class="fa-solid fa-lock"></i></a>
-                    </div>
+                <div class="entrar">
+                    <input type="submit" value="Entrar">
+                    <a class="link" href="#">Esqueci a senha <i id="iconpass" class="fa-solid fa-lock"></i></a>
+                </div>
 
-                </form>
+            </form>
 
-            </div>
+        </div>
             
-        </section>
-    </main>    
+    </section>
+       
 </body>
 </html>
